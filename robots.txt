@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://utkal-digital-lab.github.io/sitemap.xml
