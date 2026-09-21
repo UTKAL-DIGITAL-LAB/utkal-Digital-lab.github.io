@@ -1,0 +1,16 @@
+{
+  "name": "UTKAL DIGITAL LAB",
+  "short_name": "UDL",
+  "description": "AI, Automation, Android Apps, Web Development and Digital Products.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
