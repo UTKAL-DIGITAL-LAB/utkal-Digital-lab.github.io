@@ -3,759 +3,463 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>UTKAL DIGITAL LAB | AI • Automation • Apps • Web</title>
-
-  <meta name="description" content="UTKAL DIGITAL LAB builds AI solutions, automation systems, Android apps, websites and digital products for modern businesses.">
-  <meta name="keywords" content="UTKAL DIGITAL LAB, Utkal Digital Lab, AI automation, Android app development, web development, digital products, Odisha">
+  <meta name="theme-color" content="#05070d">
+  <meta name="description" content="Utkal Digital Lab — AI, Automation, Android Apps, Web Development and Digital Products.">
+  <meta name="keywords" content="AI development, automation, Android apps, web development, Odisha, India, Utkal Digital Lab">
   <meta name="author" content="UTKAL DIGITAL LAB">
-  <meta name="theme-color" content="#050505">
-
-  <meta property="og:title" content="UTKAL DIGITAL LAB">
-  <meta property="og:description" content="We build digital products that move businesses forward.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://utkal-digital-lab.github.io/">
-
-  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-<link rel="manifest" href="site.webmanifest">
-
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>UTKAL DIGITAL LAB — Build The Digital Future</title>
   <link rel="stylesheet" href="assets/css/premium.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+<div class="loader" id="loader">
+  <div class="loader-logo">UDL</div>
+  <div class="loader-line"><span></span></div>
+  <p>INITIALIZING DIGITAL LAB...</p>
+</div>
 
-<header class="premium-nav">
-  <div class="nav-inner">
+<header class="navbar" id="navbar">
+  <a href="#home" class="brand">
+    <span class="brand-mark">UDL</span>
+    <span class="brand-text">
+      <strong>UTKAL DIGITAL LAB</strong>
+      <small>BUILD THE DIGITAL FUTURE.</small>
+    </span>
+  </a>
 
-    <a href="#home" class="brand">
-      <span class="brand-mark">UDL</span>
-      <span>UTKAL DIGITAL LAB</span>
-    </a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#process">Process</a>
-      <a href="pages/about.html">About</a>
-      <a href="#contact" class="nav-cta">Start a Project</a>
-    </nav>
-
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
-      ☰
-    </button>
-
-  </div>
+  <nav id="navMenu">
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#process">Process</a>
+    <a href="#contact" class="nav-cta">Start a Project</a>
+  </nav>
 </header>
-
-
-<!-- ================= HERO ================= -->
 
 <main>
 
 <section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="particles" id="particles"></div>
 
-  <div class="hero-orb one"></div>
-  <div class="hero-orb two"></div>
+  <div class="hero-content">
+    <div class="eyebrow">
+      <span class="status-dot"></span>
+      AI • AUTOMATION • APPS • WEB • DIGITAL PRODUCTS
+    </div>
 
-  <div class="container">
+    <h1>
+      BUILD THE
+      <span>DIGITAL FUTURE.</span>
+    </h1>
 
-    <div class="hero-content">
+    <p class="hero-description">
+      We design and build practical digital products, intelligent automation,
+      AI-powered solutions, Android apps and premium websites for businesses
+      across India.
+    </p>
 
-      <span class="badge">DIGITAL INNOVATION STUDIO</span>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">Start a Project <span>↗</span></a>
+      <a href="#products" class="btn btn-outline">Explore Products</a>
+    </div>
 
-      <h1>
-        Build The
-        <span class="udl-gradient">Digital Future.</span>
-      </h1>
+    <div class="hero-meta">
+      <div><strong>AI</strong><span>Intelligence</span></div>
+      <div><strong>AUTO</strong><span>Automation</span></div>
+      <div><strong>APP</strong><span>Mobile</span></div>
+      <div><strong>WEB</strong><span>Experience</span></div>
+    </div>
+  </div>
 
-      <p class="hero-sub">
-        UTKAL DIGITAL LAB builds AI solutions, automation systems,
-        Android applications, websites and digital products designed
-        to turn ideas into useful technology.
-      </p>
+  <div class="hero-visual">
+    <div class="scene">
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
 
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary">
-          START A PROJECT →
-        </a>
-
-        <a href="#projects" class="btn btn-secondary">
-          EXPLORE OUR WORK
-        </a>
+      <div class="core">
+        <div class="core-inner">UDL</div>
       </div>
 
-      <div class="hero-meta">
-
-        <div class="meta-item">
-          <strong>AI</strong>
-          <span>Solutions</span>
-        </div>
-
-        <div class="meta-item">
-          <strong>AUTO</strong>
-          <span>Automation</span>
-        </div>
-
-        <div class="meta-item">
-          <strong>APP</strong>
-          <span>Development</span>
-        </div>
-
-        <div class="meta-item">
-          <strong>WEB</strong>
-          <span>Development</span>
-        </div>
-
+      <div class="floating-card card-ai">
+        <span>AI</span>
+        <small>INTELLIGENCE</small>
       </div>
 
+      <div class="floating-card card-app">
+        <span>APP</span>
+        <small>PRODUCT</small>
+      </div>
+
+      <div class="floating-card card-web">
+        <span>WEB</span>
+        <small>EXPERIENCE</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span></span> SCROLL TO EXPLORE
+  </div>
+</section>
+
+
+<section class="ticker">
+  <div class="ticker-track">
+    <span>AI SOLUTIONS</span><i>✦</i>
+    <span>AUTOMATION</span><i>✦</i>
+    <span>ANDROID APPS</span><i>✦</i>
+    <span>WEB DEVELOPMENT</span><i>✦</i>
+    <span>DIGITAL PRODUCTS</span><i>✦</i>
+    <span>AI SOLUTIONS</span><i>✦</i>
+    <span>AUTOMATION</span><i>✦</i>
+  </div>
+</section>
+
+
+<section class="section" id="services">
+  <div class="section-heading reveal">
+    <div>
+      <span class="section-tag">01 / SERVICES</span>
+      <h2>Digital systems.<br><span>Built for reality.</span></h2>
+    </div>
+    <p>
+      From a focused business website to a complete AI-powered product,
+      we build according to your actual business requirements.
+    </p>
+  </div>
+
+  <div class="service-grid">
+
+    <article class="service-card reveal">
+      <div class="service-number">01</div>
+      <div class="service-icon">✦</div>
+      <h3>AI Solutions</h3>
+      <p>AI-powered tools, integrations, assistants and custom digital solutions.</p>
+      <strong>Starting ₹20,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-number">02</div>
+      <div class="service-icon">⌁</div>
+      <h3>AI Automation</h3>
+      <p>Connect apps, APIs, data and workflows to reduce repetitive work.</p>
+      <strong>Starting ₹25,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-number">03</div>
+      <div class="service-icon">▣</div>
+      <h3>Android Apps</h3>
+      <p>Business apps, utility apps, custom products and scalable app systems.</p>
+      <strong>Starting ₹25,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-number">04</div>
+      <div class="service-icon">⌘</div>
+      <h3>Web Development</h3>
+      <p>Business websites, premium websites, e-commerce and web applications.</p>
+      <strong>Starting ₹5,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-number">05</div>
+      <div class="service-icon">◇</div>
+      <h3>Digital Products</h3>
+      <p>Turn an idea into a usable digital product with design and technology.</p>
+      <strong>Starting ₹30,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-number">06</div>
+      <div class="service-icon">◎</div>
+      <h3>Digital Consulting</h3>
+      <p>Technology planning, product strategy, automation and digital transformation.</p>
+      <strong>Starting ₹5,000+</strong>
+      <span class="card-arrow">↗</span>
+    </article>
+
+  </div>
+</section>
+
+
+<section class="product-section" id="products">
+  <div class="section-heading reveal">
+    <div>
+      <span class="section-tag">02 / PRODUCTS</span>
+      <h2>Built by<br><span>UTKAL DIGITAL LAB.</span></h2>
+    </div>
+    <p>Real UDL projects and product experiments — built, tested and continuously improved.</p>
+  </div>
+
+  <div class="product-showcase">
+
+    <article class="product-card panji reveal">
+      <div class="product-glow"></div>
+      <div class="product-screen">
+        <div class="screen-top">ODIA DIGITAL PANJI</div>
+        <div class="calendar-visual">
+          <span>ଓ</span>
+          <div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      <div class="product-info">
+        <span>01 / DIGITAL PRODUCT</span>
+        <h3>Odia Digital Panji</h3>
+        <p>A modern digital Panji experience with calendar, festivals, astrology and cultural information.</p>
+        <span class="product-status">PRODUCT DEVELOPMENT</span>
+      </div>
+    </article>
+
+    <article class="product-card insurance reveal">
+      <div class="product-glow"></div>
+      <div class="product-screen">
+        <div class="screen-top">INSURANCE HUB</div>
+        <div class="insurance-visual">
+          <div class="shield">◇</div>
+          <div class="data-line"></div>
+          <div class="data-line short"></div>
+          <div class="data-line"></div>
+        </div>
+      </div>
+      <div class="product-info">
+        <span>02 / DIGITAL PRODUCT</span>
+        <h3>Insurance Hub</h3>
+        <p>A digital platform concept focused on insurance discovery, information and customer interaction.</p>
+        <span class="product-status">PRODUCT DEVELOPMENT</span>
+      </div>
+    </article>
+
+    <article class="product-card automation reveal">
+      <div class="product-glow"></div>
+      <div class="product-screen">
+        <div class="screen-top">AUTOMATION LAB</div>
+        <div class="automation-visual">
+          <div class="node">AI</div>
+          <div class="connector"></div>
+          <div class="node">API</div>
+          <div class="connector"></div>
+          <div class="node">DATA</div>
+        </div>
+      </div>
+      <div class="product-info">
+        <span>03 / R&D</span>
+        <h3>Automation Lab</h3>
+        <p>Experiments connecting AI models, APIs, workflows and digital services.</p>
+        <span class="product-status">R&D / AUTOMATION</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<section class="pricing-section section" id="pricing">
+  <div class="section-heading reveal">
+    <div>
+      <span class="section-tag">03 / STARTING PRICES</span>
+      <h2>Clear starting points.<br><span>Custom scope.</span></h2>
+    </div>
+    <p>Every project is different. Final pricing depends on features, design, integrations, backend and deployment requirements.</p>
+  </div>
+
+  <div class="pricing-grid">
+
+    <div class="price-card reveal">
+      <span>WEBSITE</span>
+      <h3>Essential</h3>
+      <div class="price">₹5K<span>+</span></div>
+      <p>Landing pages and focused business websites.</p>
+      <ul>
+        <li>Responsive design</li>
+        <li>Modern UI</li>
+        <li>Contact / enquiry</li>
+        <li>Basic SEO</li>
+      </ul>
+      <a href="#contact">Discuss Website ↗</a>
+    </div>
+
+    <div class="price-card featured reveal">
+      <div class="popular">POPULAR</div>
+      <span>BUSINESS</span>
+      <h3>Professional</h3>
+      <div class="price">₹15K<span>+</span></div>
+      <p>Professional business websites and corporate experiences.</p>
+      <ul>
+        <li>Premium responsive UI</li>
+        <li>Multiple sections/pages</li>
+        <li>SEO setup</li>
+        <li>Interactive elements</li>
+      </ul>
+      <a href="#contact">Discuss Project ↗</a>
+    </div>
+
+    <div class="price-card reveal">
+      <span>APP / PRODUCT</span>
+      <h3>Custom</h3>
+      <div class="price">₹25K<span>+</span></div>
+      <p>Custom Android apps and digital product development.</p>
+      <ul>
+        <li>Custom UI/UX</li>
+        <li>Feature development</li>
+        <li>API / backend scope</li>
+        <li>Testing & build</li>
+      </ul>
+      <a href="#contact">Discuss App ↗</a>
+    </div>
+
+    <div class="price-card reveal">
+      <span>ADVANCED</span>
+      <h3>Premium</h3>
+      <div class="price">₹1L<span>+</span></div>
+      <p>Advanced apps, automation systems and digital products.</p>
+      <ul>
+        <li>Advanced architecture</li>
+        <li>AI / automation</li>
+        <li>Backend integrations</li>
+        <li>Deployment support</li>
+      </ul>
+      <a href="#contact">Start Discussion ↗</a>
+    </div>
+
+  </div>
+
+  <p class="pricing-note">
+    * All prices are starting prices. Domain, hosting, paid APIs, third-party subscriptions,
+    payment gateway charges and platform fees may be additional.
+  </p>
+</section>
+
+
+<section class="process section" id="process">
+  <div class="section-heading reveal">
+    <div>
+      <span class="section-tag">04 / PROCESS</span>
+      <h2>Idea → Product.<br><span>Without the noise.</span></h2>
+    </div>
+  </div>
+
+  <div class="process-line">
+
+    <div class="process-step reveal">
+      <span>01</span>
+      <h3>Discover</h3>
+      <p>Understand the business, users and actual problem.</p>
+    </div>
+
+    <div class="process-step reveal">
+      <span>02</span>
+      <h3>Design</h3>
+      <p>Create the product structure and user experience.</p>
+    </div>
+
+    <div class="process-step reveal">
+      <span>03</span>
+      <h3>Build</h3>
+      <p>Develop the website, app, automation or digital system.</p>
+    </div>
+
+    <div class="process-step reveal">
+      <span>04</span>
+      <h3>Test</h3>
+      <p>Check functionality, responsiveness and reliability.</p>
+    </div>
+
+    <div class="process-step reveal">
+      <span>05</span>
+      <h3>Launch</h3>
+      <p>Deploy and continue improving the product.</p>
     </div>
 
   </div>
 </section>
 
 
-<!-- ================= CAPABILITY BAR ================= -->
-
-<section style="padding:35px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
-
-  <div class="container">
-
-    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;color:#777781;font-size:.76rem;font-weight:900;letter-spacing:.12em;">
-      <span>AI ENGINEERING</span>
-      <span>AUTOMATION</span>
-      <span>ANDROID</span>
-      <span>WEB TECHNOLOGY</span>
-      <span>DIGITAL PRODUCTS</span>
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ================= WHAT WE BUILD ================= -->
-
-<section id="services">
-
-  <div class="container">
-
-    <div class="section-heading">
-      <span class="badge">WHAT WE BUILD</span>
-
-      <h2>
-        Technology with
-        <span class="udl-gradient">purpose.</span>
-      </h2>
-
-      <p>
-        From business automation to complete digital products,
-        we design and build technology around real-world needs.
-      </p>
-    </div>
-
-
-    <div class="card-grid">
-
-      <article class="premium-card">
-        <span class="card-number">01 / AI</span>
-        <h3>AI Solutions</h3>
-        <p>
-          Practical AI-powered tools and intelligent workflows
-          for modern digital businesses.
-        </p>
-        <span class="card-link">Explore AI →</span>
-      </article>
-
-
-      <article class="premium-card">
-        <span class="card-number">02 / AUTO</span>
-        <h3>AI Automation</h3>
-        <p>
-          Connect apps, data and AI to reduce repetitive work
-          and create efficient business workflows.
-        </p>
-        <span class="card-link">Build Automation →</span>
-      </article>
-
-
-      <article class="premium-card">
-        <span class="card-number">03 / APP</span>
-        <h3>Android Apps</h3>
-        <p>
-          Modern Android applications with clean interfaces,
-          useful features and scalable architecture.
-        </p>
-        <span class="card-link">Build An App →</span>
-      </article>
-
-
-      <article class="premium-card">
-        <span class="card-number">04 / WEB</span>
-        <h3>Web Development</h3>
-        <p>
-          Fast, responsive websites and digital experiences
-          designed for businesses and products.
-        </p>
-        <span class="card-link">Build A Website →</span>
-      </article>
-
-
-      <article class="premium-card">
-        <span class="card-number">05 / PRODUCT</span>
-        <h3>Digital Products</h3>
-        <p>
-          Turn ideas into usable digital products with a
-          structured design, build and launch process.
-        </p>
-        <span class="card-link">Create Product →</span>
-      </article>
-
-
-      <article class="premium-card">
-        <span class="card-number">06 / CONSULT</span>
-        <h3>Digital Consulting</h3>
-        <p>
-          Technology planning, product strategy and practical
-          guidance for businesses moving into digital.
-        </p>
-        <span class="card-link">Talk To UDL →</span>
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <span class="badge">SELECTED WORK</span>
-
-      <h2>
-        Built by
-        <span class="udl-gradient">UDL.</span>
-      </h2>
-
-      <p>
-        Explore selected digital products and technology projects
-        created under UTKAL DIGITAL LAB.
-      </p>
-
-    </div>
-
-
-    <div class="project-grid">
-
-      <article class="project-card">
-
-        <div class="project-glow"></div>
-
-        <div class="project-content">
-
-          <span class="project-tag">DIGITAL PRODUCT</span>
-
-          <h3>Odia Digital Panji</h3>
-
-          <p>
-            A digital platform focused on Odia calendar,
-            festivals, cultural information and useful daily features.
-          </p>
-
-          <a href="projects/odia-digital-panji.html" class="card-link">
-            VIEW PROJECT →
-          </a>
-
-        </div>
-
-      </article>
-
-
-      <article class="project-card">
-
-        <div class="project-glow"></div>
-
-        <div class="project-content">
-
-          <span class="project-tag">INSURANCE TECHNOLOGY</span>
-
-          <h3>Insurance Hub</h3>
-
-          <p>
-            A digital insurance utility concept designed to
-            organize useful insurance information and tools.
-          </p>
-
-          <a href="projects/odia-digital-panji.html" class="card-link">
-            VIEW PROJECT →
-          </a>
-
-        </div>
-
-      </article>
-
-
-      <article class="project-card">
-
-        <div class="project-glow"></div>
-
-        <div class="project-content">
-
-          <span class="project-tag">AI AUTOMATION</span>
-
-          <h3>Automation Lab</h3>
-
-          <p>
-            Experimental AI and automation workflows exploring
-            practical ways to connect tools, data and intelligence.
-          </p>
-
-          <a href="projects/odia-digital-panji.html" class="card-link">
-            VIEW PROJECT →
-          </a>
-
-        </div>
-
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ================= WHY UDL ================= -->
-
-<section id="about">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <span class="badge">WHY UDL</span>
-
-      <h2>
-        Not just ideas.
-        <span class="udl-gradient">We build.</span>
-      </h2>
-
-      <p>
-        Our approach is simple: understand the problem,
-        design the right solution, build it properly and keep improving it.
-      </p>
-
-    </div>
-
-
-    <div class="card-grid">
-
-      <article class="premium-card">
-        <span class="card-number">01</span>
-        <h3>Problem First</h3>
-        <p>
-          We start with the actual problem instead of forcing
-          unnecessary technology into a project.
-        </p>
-      </article>
-
-      <article class="premium-card">
-        <span class="card-number">02</span>
-        <h3>Build Practical</h3>
-        <p>
-          The goal is technology that people can actually use,
-          not technology that only looks impressive.
-        </p>
-      </article>
-
-      <article class="premium-card">
-        <span class="card-number">03</span>
-        <h3>Keep Improving</h3>
-        <p>
-          Digital products evolve. We design systems that can
-          grow through future updates and improvements.
-        </p>
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ================= PROCESS ================= -->
-
-<section id="process">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <span class="badge">OUR PROCESS</span>
-
-      <h2>
-        From idea to
-        <span class="udl-gradient">launch.</span>
-      </h2>
-
-    </div>
-
-
-    <div class="process">
-
-      <div class="process-item">
-        <span>01</span>
-        <h3>Discover</h3>
-        <p>Understand the idea, problem and requirements.</p>
+<section class="cta-section" id="contact">
+  <div class="cta-grid"></div>
+
+  <div class="cta-content reveal">
+    <span class="section-tag">05 / START A PROJECT</span>
+    <h2>Have an idea?<br><span>Let's build it.</span></h2>
+    <p>
+      Tell us what you want to build. We will understand the requirement
+      and discuss the right technology, scope and budget.
+    </p>
+
+    <form id="projectForm">
+      <div class="form-row">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="project" placeholder="Project / Business" required>
       </div>
 
-      <div class="process-item">
-        <span>02</span>
-        <h3>Design</h3>
-        <p>Create the user experience and technical direction.</p>
+      <div class="form-row">
+        <input type="email" id="email" placeholder="Email">
+        <input type="tel" id="whatsapp" placeholder="WhatsApp Number">
       </div>
 
-      <div class="process-item">
-        <span>03</span>
-        <h3>Build</h3>
-        <p>Develop the product using appropriate technology.</p>
-      </div>
+      <select id="service">
+        <option value="">Select Service</option>
+        <option>AI Solutions</option>
+        <option>AI Automation</option>
+        <option>Android App</option>
+        <option>Web Development</option>
+        <option>Digital Product</option>
+        <option>Digital Consulting</option>
+      </select>
 
-      <div class="process-item">
-        <span>04</span>
-        <h3>Test</h3>
-        <p>Review functionality, responsiveness and usability.</p>
-      </div>
+      <select id="budget">
+        <option value="">Estimated Budget</option>
+        <option>₹5,000 – ₹15,000</option>
+        <option>₹15,000 – ₹30,000</option>
+        <option>₹30,000 – ₹75,000</option>
+        <option>₹75,000 – ₹1,50,000</option>
+        <option>₹1,50,000+</option>
+      </select>
 
-      <div class="process-item">
-        <span>05</span>
-        <h3>Launch</h3>
-        <p>Deploy the product and continue improving it.</p>
-      </div>
+      <textarea id="details" rows="5" placeholder="Tell us about your project..."></textarea>
 
-    </div>
-
+      <button type="submit" class="btn btn-primary submit-btn">
+        Send Project Enquiry <span>↗</span>
+      </button>
+    </form>
   </div>
-</section>
-
-
-<!-- ================= TECHNOLOGY ================= -->
-
-<section>
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <span class="badge">TECHNOLOGY</span>
-
-      <h2>
-        Built with modern
-        <span class="udl-gradient">tools.</span>
-      </h2>
-
-      <p>
-        Our projects can combine AI models, automation platforms,
-        Android, web technologies, APIs and cloud services according
-        to the project requirements.
-      </p>
-
-    </div>
-
-
-    <div class="card-grid">
-
-      <article class="premium-card">
-        <h3>AI</h3>
-        <p>AI models, intelligent workflows and AI-powered products.</p>
-      </article>
-
-      <article class="premium-card">
-        <h3>Automation</h3>
-        <p>Workflow automation, APIs, data pipelines and integrations.</p>
-      </article>
-
-      <article class="premium-card">
-        <h3>Apps & Web</h3>
-        <p>Android applications and responsive modern web experiences.</p>
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<!-- ================= CONTACT / ENQUIRY ================= -->
-
-<section id="contact">
-
-  <div class="container">
-
-    <div class="contact-wrap">
-
-      <div class="contact-info">
-
-        <span class="badge">START A PROJECT</span>
-
-        <h2>
-          Have an idea?
-          <br>
-          <span class="udl-gradient">Let's build it.</span>
-        </h2>
-
-        <p>
-          Tell us what you want to build. Share your requirements,
-          preferred technology and project goals. The UDL team can
-          review your enquiry and discuss the next steps.
-        </p>
-
-        <div class="contact-points">
-
-          <div class="contact-point">
-            <strong>AI & Automation</strong>
-            <span>AI tools, workflow automation, APIs and integrations.</span>
-          </div>
-
-          <div class="contact-point">
-            <strong>Android Apps</strong>
-            <span>Modern Android applications and digital products.</span>
-          </div>
-
-          <div class="contact-point">
-            <strong>Web Development</strong>
-            <span>Responsive websites and business web solutions.</span>
-          </div>
-
-          <div class="contact-point">
-            <strong>Digital Products</strong>
-            <span>Product planning, development, testing and launch support.</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      <form class="enquiry-form" id="enquiryForm" novalidate>
-
-        <div class="form-grid">
-
-          <div class="form-group">
-            <label for="name">Full Name *</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your name"
-              autocomplete="name"
-              required>
-          </div>
-
-          <div class="form-group">
-            <label for="business">Business / Project</label>
-            <input
-              type="text"
-              id="business"
-              name="business"
-              placeholder="Business or project name"
-              autocomplete="organization">
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email *</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="you@example.com"
-              autocomplete="email"
-              required>
-          </div>
-
-          <div class="form-group">
-            <label for="phone">Phone / WhatsApp</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="+91 XXXXX XXXXX"
-              autocomplete="tel">
-          </div>
-
-          <div class="form-group">
-            <label for="service">Service *</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service</option>
-              <option value="AI Solutions">AI Solutions</option>
-              <option value="AI Automation">AI Automation</option>
-              <option value="Android App Development">Android App Development</option>
-              <option value="Web Development">Web Development</option>
-              <option value="Digital Product">Digital Product</option>
-              <option value="Digital Consulting">Digital Consulting</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="budget">Budget Range</label>
-            <select id="budget" name="budget">
-              <option value="">Select budget range</option>
-              <option value="Under ₹10,000">Under ₹10,000</option>
-              <option value="₹10,000 – ₹25,000">₹10,000 – ₹25,000</option>
-              <option value="₹25,000 – ₹50,000">₹25,000 – ₹50,000</option>
-              <option value="₹50,000 – ₹1,00,000">₹50,000 – ₹1,00,000</option>
-              <option value="₹1,00,000+">₹1,00,000+</option>
-              <option value="Not decided yet">Not decided yet</option>
-            </select>
-          </div>
-
-          <div class="form-group full">
-            <label for="details">Project Details *</label>
-            <textarea
-              id="details"
-              name="details"
-              rows="6"
-              placeholder="Tell us about your project, requirements, features, timeline, etc."
-              required></textarea>
-          </div>
-
-        </div>
-
-        <button type="submit" class="btn btn-primary form-submit">
-          SEND ENQUIRY →
-        </button>
-
-        <p class="form-note">
-          Your enquiry will be prepared securely in your browser.
-          No API key or password is stored on this website.
-        </p>
-
-        <div
-          class="form-status"
-          id="formStatus"
-          role="status"
-          aria-live="polite">
-        </div>
-
-      </form>
-
-    </div>
-
-  </div>
-
 </section>
 
 </main>
 
 
-<!-- ================= FOOTER ================= -->
-
 <footer>
-
-  <div class="container">
-
-    <div class="footer-grid">
-
-      <div class="footer-brand">
-
-        <div class="brand">
-          <span class="brand-mark">UDL</span>
-          <span>UTKAL DIGITAL LAB</span>
-        </div>
-
-        <p>
-          AI • Automation • Apps • Web • Digital Products
-        </p>
-
-      </div>
-
-
-      <div class="footer-col">
-
-        <h4>Services</h4>
-
-        <a href="#services">AI Solutions</a>
-        <a href="#services">Automation</a>
-        <a href="#services">Android Apps</a>
-        <a href="#services">Web Development</a>
-
-      </div>
-
-
-      <div class="footer-col">
-
-        <h4>Company</h4>
-
-        <a href="#projects">Projects</a>
-        <a href="pages/about.html">About UDL</a>
-        <a href="#process">Process</a>
-
-      </div>
-
-
-      <div class="footer-col">
-
-        <h4>Contact</h4>
-
-        <a href="#contact">Start a Project</a>
-        <a href="mailto:hello@utkaldigitallab.com">
-          Email
-        </a>
-
-      </div>
-
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand">UDL<span>.</span></div>
+      <p>UTKAL DIGITAL LAB</p>
     </div>
 
-
-    <div class="footer-bottom">
-
-      <span>
-        © 2026 UTKAL DIGITAL LAB. All rights reserved.
-      </span>
-
-      <span>
-        Learn AI • Build Income
-      </span>
-
+    <div class="footer-tagline">
+      AI • AUTOMATION • APPS • WEB • DIGITAL PRODUCTS
     </div>
-
   </div>
 
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> UTKAL DIGITAL LAB. All rights reserved.</span>
+    <span>Built in Odisha. Designed for India.</span>
+  </div>
 </footer>
 
-
 <script src="assets/js/app.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const navToggle = document.getElementById("navToggle");
-  const navLinks = document.getElementById("navLinks");
-
-  if (navToggle && navLinks) {
-    navToggle.addEventListener("click", function () {
-      navLinks.classList.toggle("active");
-    });
-
-    navLinks.querySelectorAll("a").forEach(function (link) {
-      link.addEventListener("click", function () {
-        navLinks.classList.remove("active");
-      });
-    });
-  }
-
-});
-</script>
-
 </body>
 </html>
