@@ -496,47 +496,163 @@
 
 <!-- ================= CTA ================= -->
 
+<!-- ================= CONTACT / ENQUIRY ================= -->
+
 <section id="contact">
 
   <div class="container">
 
-    <div class="cta-box">
+    <div class="contact-wrap">
 
-      <span class="badge">START SOMETHING</span>
+      <div class="contact-info">
 
-      <h2>
-        Have an idea?
-        <br>
-        <span class="udl-gradient">Let's build it.</span>
-      </h2>
+        <span class="badge">START A PROJECT</span>
 
-      <p>
-        Tell us what you want to build. We can discuss the idea,
-        requirements, technology and next steps.
-      </p>
+        <h2>
+          Have an idea?
+          <br>
+          <span class="udl-gradient">Let's build it.</span>
+        </h2>
 
-      <div class="hero-actions" style="justify-content:center;">
+        <p>
+          Tell us what you want to build. Share your requirements,
+          preferred technology and project goals. The UDL team can
+          review your enquiry and discuss the next steps.
+        </p>
 
-        <a href="mailto:hello@utkaldigitallab.com"
-           class="btn btn-primary">
-          EMAIL UDL →
-        </a>
+        <div class="contact-points">
 
-        <a href="#home"
-           class="btn btn-secondary">
-          BACK TO TOP ↑
-        </a>
+          <div class="contact-point">
+            <strong>AI & Automation</strong>
+            <span>AI tools, workflow automation, APIs and integrations.</span>
+          </div>
+
+          <div class="contact-point">
+            <strong>Android Apps</strong>
+            <span>Modern Android applications and digital products.</span>
+          </div>
+
+          <div class="contact-point">
+            <strong>Web Development</strong>
+            <span>Responsive websites and business web solutions.</span>
+          </div>
+
+          <div class="contact-point">
+            <strong>Digital Products</strong>
+            <span>Product planning, development, testing and launch support.</span>
+          </div>
+
+        </div>
 
       </div>
 
-      <p style="font-size:.78rem;margin-top:22px;">
-        Business contact channels will be activated with the
-        official UDL domain and verified contact details.
-      </p>
+      <form class="enquiry-form" id="enquiryForm" novalidate>
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              autocomplete="name"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="business">Business / Project</label>
+            <input
+              type="text"
+              id="business"
+              name="business"
+              placeholder="Business or project name"
+              autocomplete="organization">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+91 XXXXX XXXXX"
+              autocomplete="tel">
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service *</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="AI Solutions">AI Solutions</option>
+              <option value="AI Automation">AI Automation</option>
+              <option value="Android App Development">Android App Development</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Digital Product">Digital Product</option>
+              <option value="Digital Consulting">Digital Consulting</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="budget">Budget Range</label>
+            <select id="budget" name="budget">
+              <option value="">Select budget range</option>
+              <option value="Under ₹10,000">Under ₹10,000</option>
+              <option value="₹10,000 – ₹25,000">₹10,000 – ₹25,000</option>
+              <option value="₹25,000 – ₹50,000">₹25,000 – ₹50,000</option>
+              <option value="₹50,000 – ₹1,00,000">₹50,000 – ₹1,00,000</option>
+              <option value="₹1,00,000+">₹1,00,000+</option>
+              <option value="Not decided yet">Not decided yet</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label for="details">Project Details *</label>
+            <textarea
+              id="details"
+              name="details"
+              rows="6"
+              placeholder="Tell us about your project, requirements, features, timeline, etc."
+              required></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">
+          SEND ENQUIRY →
+        </button>
+
+        <p class="form-note">
+          Your enquiry will be prepared securely in your browser.
+          No API key or password is stored on this website.
+        </p>
+
+        <div
+          class="form-status"
+          id="formStatus"
+          role="status"
+          aria-live="polite">
+        </div>
+
+      </form>
 
     </div>
 
   </div>
+
 </section>
 
 </main>
