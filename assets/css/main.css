@@ -2418,3 +2418,33 @@ footer{
 
 }
 
+
+/* =========================================================
+   UDL V5.3 — PARTICLE RECONSTRUCTION CANVAS LAYER
+   ========================================================= */
+
+#digitalCanvas{
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+  opacity: 1 !important;
+}
+
+body{
+  position: relative;
+}
+
+.grid-overlay,
+.scanline,
+.noise,
+nav,
+main,
+footer{
+  position: relative;
+  z-index: 1;
+}
+
