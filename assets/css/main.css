@@ -2448,3 +2448,56 @@ footer{
   z-index: 1;
 }
 
+
+/* =========================================================
+   UDL V5.3 — CONTENT READABILITY / PARTICLE DEPTH FIX
+   ========================================================= */
+
+#digitalCanvas{
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.grid-overlay,
+.scanline,
+.noise{
+  pointer-events: none;
+}
+
+nav,
+main,
+footer{
+  position: relative;
+  z-index: 2;
+}
+
+.hero,
+.hero-content,
+.hero h1,
+.hero-description,
+.hero-meta,
+.hero-actions,
+.hero-scroll,
+.section,
+.section-inner{
+  position: relative;
+  z-index: 3;
+}
+
+.hero h1,
+.hero-description,
+.hero-meta,
+.hero-actions,
+.hero-scroll,
+.hero-scroll *,
+nav *,
+.section h2,
+.section p{
+  position: relative;
+  z-index: 4;
+}
+
