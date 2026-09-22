@@ -20,3 +20,10 @@ v2-pro-work/
 v2-work-original/
 v2-work/
 v4-preview/
+
+# UDL local backups
+*.backup
+*.pricing-old-backup
+*.udl-v5-backup
+*.before-premium-fix
+*.before-pricing-backup
