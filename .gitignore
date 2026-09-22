@@ -6,3 +6,17 @@ node_modules/
 *.log
 .vscode/
 .idea/
+
+# Local backup files
+*.backup
+*-backup.js
+
+# Local development snapshots
+v2-premium-before-pro/
+v2-premium-checkpoint/
+v2-preview/
+v2-pro-before-engine/
+v2-pro-work/
+v2-work-original/
+v2-work/
+v4-preview/
